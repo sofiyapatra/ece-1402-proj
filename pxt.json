@@ -1,0 +1,56 @@
+{
+    "name": "ECE 1402 PROJ",
+    "description": "1 functional level, 2 semifunctional level, 3 untested level. TODO: game instruction splash screen at start of each level. ",
+    "dependencies": {
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "sprite-scaling": "*",
+        "animation": "*",
+        "controller": "*",
+        "pxt-zoom": "github:kiwiphoenix364/pxt-zoom#v3.0.3",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.1",
+        "tag": "v4.1.27",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/401d844a09f01717919937e218e14e9cea9fa83a",
+        "target": "4.1.27",
+        "pxt": "13.1.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#c0d1cc",
+        "#603b3a",
+        "#170e19",
+        "#775c4f",
+        "#77744f",
+        "#4f7754",
+        "#a19f7c",
+        "#4f5277",
+        "#65738c",
+        "#3a604a",
+        "#213b25",
+        "#433a60",
+        "#7c94a1",
+        "#3b2137",
+        "#2f213b"
+    ]
+}
